@@ -1,0 +1,8 @@
+PS D:\Northwestern\ME449> & C:/Users/billm/AppData/Local/Programs/Python/Python39/python.exe d:/Northwestern/ME449/Final_Project/Final/code/runscript.py
+C:\Users\billm\AppData\Local\Programs\Python\Python39\lib\site-packages\modern_robotics\core.py:88: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return np.array([[0,      -omg[2],  omg[1]],
+Generating trajectory...
+Generating animation CSV file
+Writing error plot data
+Done!
+PS D:\Northwestern\ME449> 
