@@ -16,7 +16,7 @@ The project utilizes the following topics, which correspond to different section
 7. Open the gripper
 8. Return to the standoff position above the final position of the cube
 
-**Odometry** was used to simulate realistic movements for the omniwheels so that they spin according to the way the robot chassis maneuvers the environment.
+**Odometry** was used to simulate realistic movements for the mecanum wheels so they spin according to the way the robot chassis maneuvers the environment.
 
 A **PI feedback controller** was used to model and correct the error dynamics of the robot trajectory, since the actual initial configuration of the end-effector should not be restricted to the initial configuration of the end-effector in the reference trajectory. By utilizing an integral controller on top of a proportional controller, the robot is able to eliminate steady state error while producing relatively stable behavior.
 
